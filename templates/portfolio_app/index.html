@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% extends "portfolio_app/navigation_bar.html" %}
+{% load staticfiles %}
+  {% block body_block %}
+
+  <body class="main_body">
+      <div class="container outer_container">
+        <img src="{% static "images/myPhoto.jpg" %}" alt="My Photo" class="img-thumbnail photo_frame rounded-circle">
+        <div class="container inner_container">
+          <a href="https://www.linkedin.com/in/andrew-r-olson"><i class="fa fa-linkedin-square fa-3x fa-item" aria-hidden="true"></i></a>
+          <a href="https://github.com/arolson"><i class="fa fa-github fa-3x fa-item" aria-hidden="true"></i></a>
+          <a href="mailto:arolson56@gmail.com?Subject=Portfolio%20Contact"><i class="fa fa-envelope fa-3x fa-item" aria-hidden="true"></i></a>
+        </div>
+      </div>
+  </body>
+
+
+  {% endblock %}

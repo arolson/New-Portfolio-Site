@@ -1,0 +1,10 @@
+# Ignore site_images Directory
+site_images/
+
+# Ignore all JSON Files
+*.json
+
+# Ignore all document Files
+*.pdf
+*.docx
+*.zip
