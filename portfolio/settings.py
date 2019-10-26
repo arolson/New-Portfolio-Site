@@ -89,8 +89,8 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': os.environ['DATABASE_URL'],
-        'NAME': 'postgresql-spherical-63422',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.environ['DATABASE_URL'],
     }
 }
 
