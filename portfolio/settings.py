@@ -25,7 +25,7 @@ STATIC_DIR = os.path.join(BASE_DIR, 'static')
 SECRET_KEY = 'uhoaoexd54aw2@ask15fqao1$2cwula2nbsd==zqrucu#*8dty'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -161,7 +161,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 COMPRESS_ENABLED = os.environ.get('COMPRESS_ENABLED', False)
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = STATIC_DIR
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [STATIC_DIR,]
