@@ -7,5 +7,5 @@ app_name = 'portfolio_app'
 urlpatterns = [
     path('projects/', views.projects, name='projects'),
     path('about/', views.about, name='about'),
-    path('', views.index, name='index')
+    path('/', views.index, name='index')
 ]
