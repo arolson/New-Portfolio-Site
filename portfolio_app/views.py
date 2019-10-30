@@ -9,3 +9,6 @@ def projects(request):
 
 def about(request):
     return render(request, 'portfolio_app/about.html')
+
+def custom_404(request):
+    return render(request, '404.html', {}, status=404)

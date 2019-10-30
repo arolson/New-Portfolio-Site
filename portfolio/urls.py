@@ -16,9 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from portfolio_app import views
-
+handler404 = 'portfolio_app.views.custom_404'
 urlpatterns = [
-    path('/', views.index, name='index'),
+    path('', views.index, name='index'),
     path('admin/', admin.site.urls),
     path('portfolio_app/', include('portfolio_app.urls'))
 ]
