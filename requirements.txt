@@ -4,7 +4,6 @@ certifi==2019.9.11
 cffi==1.13.0
 dj-database-url==0.5.0
 Django==2.2.5
-Faker==2.0.2
 gunicorn==19.9.0
 Pillow==6.2.1
 psycopg2-binary==2.8.4
