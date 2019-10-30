@@ -11,4 +11,4 @@ def about(request):
     return render(request, 'portfolio_app/about.html')
 
 def custom_404(request):
-    return render(request, '404.html', {}, status=404)
+    return render(request, 'portfolio_app/404.html', {}, status=404)
