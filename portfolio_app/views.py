@@ -5,6 +5,7 @@ def index(request):
     return render(request, 'portfolio_app/index.html')
 
 def projects(request):
+    name = "andrew"
     return render(request, 'portfolio_app/projects.html')
 
 def about(request):
